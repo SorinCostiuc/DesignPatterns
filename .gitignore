@@ -3,4 +3,3 @@ target
 .git
 *.iml
 out
-pom.xml
