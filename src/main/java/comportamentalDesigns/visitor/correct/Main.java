@@ -14,6 +14,11 @@ public class Main {
         bread.addToCart(bag);
 
         System.out.println(bag.getTotalPrice());
-        bag.buy(wallet);
+        try {
+            bag.buy(wallet);
+        } catch (NotEnoughMoneyException e) {
+            System.out.println("I have to buy less products");
+        }
+
     }
 }

@@ -26,7 +26,7 @@ public class Bag implements Cart {
     @Override
     public void buy(Wallet wallet) {
         if (wallet.getMoney() < getTotalPrice()) {
-            System.out.println("You don't have enough money");
+           throw new NotEnoughMoneyException("You don't have enough money to buy the products");
         }
     }
 }
