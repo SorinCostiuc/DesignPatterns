@@ -14,5 +14,16 @@ public class Main {
         System.out.println("----------");
         System.out.println(cass2.getA());
 
+        //I want to use this database
+        ConfigurationClass config = ConfigurationClass.getInstance();
+        config.setUsername("Sorin");
+        config.setDatabaseUrl("https://mydatabase:4433");
+
+        config.getDataBaseUsername();
+        config.getDataBaseUrl();
+
+        DatabaseCaller caller = new DatabaseCaller();
+        caller.doSomething();
+
     }
 }
