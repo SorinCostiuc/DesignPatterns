@@ -24,6 +24,8 @@ public class Main {
 
         DatabaseCaller caller = new DatabaseCaller();
         caller.doSomething();
+        System.out.println("-------------------" + "\n" + "-------------------");
+        System.out.println(CoffeShop.COFFE);
 
     }
 }
