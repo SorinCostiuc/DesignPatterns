@@ -1,11 +1,11 @@
-package comportamentalDesigns.visitor.correct;
+package behaviorDesigns.visitor.correct;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Fruit implements Item {
+public class Bread implements Item {
     private int price;
 
     @Override

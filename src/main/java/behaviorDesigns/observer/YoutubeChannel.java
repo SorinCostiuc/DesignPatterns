@@ -1,4 +1,4 @@
-package comportamentalDesigns.observer;
+package behaviorDesigns.observer;
 
 
 import java.util.LinkedList;

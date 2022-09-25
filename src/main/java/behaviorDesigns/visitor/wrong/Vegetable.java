@@ -1,4 +1,4 @@
-package comportamentalDesigns.visitor.wrong;
+package behaviorDesigns.visitor.wrong;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

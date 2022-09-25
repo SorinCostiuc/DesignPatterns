@@ -1,4 +1,4 @@
-package comportamentalDesigns.visitor.correct;
+package behaviorDesigns.visitor.correct;
 
 
 public class Main {

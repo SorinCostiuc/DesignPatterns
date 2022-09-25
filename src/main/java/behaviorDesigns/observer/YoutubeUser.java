@@ -1,4 +1,4 @@
-package comportamentalDesigns.observer;
+package behaviorDesigns.observer;
 
 public class YoutubeUser implements Observer {
     private String latestUploadedVideo;

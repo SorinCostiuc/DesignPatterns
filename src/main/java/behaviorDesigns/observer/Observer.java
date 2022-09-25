@@ -1,4 +1,4 @@
-package comportamentalDesigns.observer;
+package behaviorDesigns.observer;
 
 public interface Observer {
     void subscribe(Observable observable);

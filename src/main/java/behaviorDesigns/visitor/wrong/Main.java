@@ -1,4 +1,4 @@
-package comportamentalDesigns.visitor.wrong;
+package behaviorDesigns.visitor.wrong;
 
 public class Main {
     public static void main(String[] args) {
