@@ -9,6 +9,11 @@ public class YoutubeUser implements Observer {
     }
 
     @Override
+    public void unsubscribe(Observable observable) {
+        observable.unsubscribe(this);
+    }
+
+    @Override
     public void changeState(String state) {
         latestUploadedVideo = state;
     }

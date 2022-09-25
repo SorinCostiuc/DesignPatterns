@@ -11,8 +11,16 @@ public class Main {
 
         venkatChannel.changeState("Java Lambda Desgin Patterns");
 
+//both receive
+        System.out.println(sorin.getLastestState());
+        System.out.println(stefan.getLastestState());
+        System.out.println("----------");
+
+        stefan.unsubscribe(venkatChannel);
+        venkatChannel.changeState("Do not use Java");
 
         System.out.println(sorin.getLastestState());
+        System.out.println(stefan.getLastestState());
 
 
     }
