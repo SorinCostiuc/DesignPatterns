@@ -9,7 +9,7 @@ public class Main {
         stefan.subscribe(venkatChannel);
         sorin.subscribe(venkatChannel);
 
-        venkatChannel.changeState("Java Lambda Desgin Patterns");
+        venkatChannel.changeState("Java Lambda Design Patterns");
 
 //both receive
         System.out.println(sorin.getLastestState());
